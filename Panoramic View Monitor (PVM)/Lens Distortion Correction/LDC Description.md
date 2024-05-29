@@ -3,8 +3,10 @@
 ## Normalisation
 
 ## Camera Parameters
-<img src = "Radial_Distortion_Model.png"> Radial_Distortion_Model <img>
+
 ## Distortion Parameters
+<img src = "Radial_Distortion_Model.png"> Radial_Distortion_Model <img>
+
 
 ## Results
 
@@ -21,3 +23,5 @@
 - weixin_41284198 (2018) '内参矩阵', CSDN博客, 29 July. Available at: https://blog.csdn.net/weixin_41284198/article/details/81183804 (Accessed: 29 May 2024).
 
 - wuxianfeng1987 (2021) '内参矩阵、外参矩阵、旋转矩阵、平移矩阵、单应矩阵、本征矩阵、基础矩阵', CSDN博客, 15 September. Available at: https://blog.csdn.net/wuxianfeng1987/article/details/120760551 (Accessed: 29 May 2024).
+
+- Imatest LLC (n.d.) 'Distortion Models', Imatest. Available at: https://www.imatest.com/support/docs/pre-5-2/geometric-calibration-deprecated/distortion-models/#:~:text=Radial%20distortion%20models%20are%20described,between%20distorted%20and%20undistorted%20radii (Accessed: 29 May 2024).
