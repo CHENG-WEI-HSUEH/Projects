@@ -3,7 +3,7 @@
 ## Normalisation
 
 ## Camera Parameters
-
+<img src = "Radial_Distortion_Model.png"> Radial_Distortion_Model <img>
 ## Distortion Parameters
 
 ## Results
