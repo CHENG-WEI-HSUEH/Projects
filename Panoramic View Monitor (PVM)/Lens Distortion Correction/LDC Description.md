@@ -11,6 +11,14 @@ This step aims to scale the position of pixels between -1~1.
 ## Distortion Parameters
 <img src = "Radial_Distortion_Model.png"> Radial_Distortion_Model <img>
 
+The project utilises Polynomial Radial Distortion Model, only adopting the even part 
+
+### f(r) = 1 + p1 * r<sup>2</sup> + p2 + r<sup>4</sup> + p3 * r<sup>6</sup>. 
+### r = x<sup>2</sup> + y<sup>2</sup>.
+Here, x & y are the position of pixels in a distored image.
+
+In addition to radial distortion, it still requires to take "Tangential distortion" into consideration.
+
 
 ## Results
 
