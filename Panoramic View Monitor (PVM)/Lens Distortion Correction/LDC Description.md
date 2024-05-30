@@ -3,11 +3,10 @@
 ## Normalisation
 
 ## Camera Parameters
-fx, fy correspond to the scale of the image. If the image is required to scale larger, the fx should be larger than the width & hight of the original image.
+fx, fy correspond to the scale of the image. If the image is required to scale larger, the fx should be larger than the width & height of the original image.
 cx, cy are the center of the distorted image.
 
-The matrix maps the real-world coordination to image coordination by Homogeneous Coordinate and Affine Transform. This matrix aims to map the 3D image to a 2D image.
-()
+This step aims to scale the position of pixels between -1~1.
 
 ## Distortion Parameters
 <img src = "Radial_Distortion_Model.png"> Radial_Distortion_Model <img>
@@ -32,3 +31,5 @@ The matrix maps the real-world coordination to image coordination by Homogeneous
 - Imatest LLC (n.d.) 'Distortion Models', Imatest. Available at: https://www.imatest.com/support/docs/pre-5-2/geometric-calibration-deprecated/distortion-models/#:~:text=Radial%20distortion%20models%20are%20described,between%20distorted%20and%20undistorted%20radii (Accessed: 29 May 2024).
 
 - First Principles of Computer Vision (2021) 'Linear Camera Model | Camera Calibration', YouTube, 12 October. Available at: https://www.youtube.com/watch?v=qByYk6JggQU (Accessed: 29 May 2024).
+
+- Moris (2022) 'Camera Calibration 相機校正', Medium. Available at: https://medium.com/image-processing-and-ml-note/camera-calibration-%E7%9B%B8%E6%A9%9F%E6%A0%A1%E6%AD%A3-2632f302bcbd (Accessed: 29 May 2024).
