@@ -1,5 +1,5 @@
 #Lens Distortion Correction
-<img src = "LDC_Step_01.bmp"> Figure 1. LDC Main UI <img>
+<img src = "LDC_Step_01.png"> Figure 1. LDC Main UI <img>
 
 ## Normalisation
 
@@ -39,16 +39,16 @@ The combination of the 2 distortion models will be
 
 ## Results
 Step 1. Import the image from the local path as shown in Figure 3.
-<img src = "LDC_Step_02.bmp"> Figure 3. Import image <img>
+<img src = "LDC_Step_02.png"> Figure 3. Import image <img>
 
 Step 2. Input the parameters from the UI as shown in Figure 4; P1 & P2 & P5 mainly correct the radial distortion. P3 & P4 are mainly correct for the tangential distortion.
-<img src = "LDC_Step_03.bmp"> Figure 4. Input parameters <img>
+<img src = "LDC_Step_03.png"> Figure 4. Input parameters <img>
 
 Step 3. Click the correction button to correct the distorted image as shown in Figure 5.
-<img src = "LDC_Step_04.bmp"> Figure 5. Generate corrected image <img>
+<img src = "LDC_Step_04.png"> Figure 5. Generate corrected image <img>
 
 Step 5. Save the corrected image to the local path as shown in Figure 6.
-<img src = "LDC_Step_05.bmp"> Figure 6. Save the corrected image to the local host<img>
+<img src = "LDC_Step_05.png"> Figure 6. Save the corrected image to the local host<img>
 
 # REFERENCE
 - Tzeng, A. (2020) '影像畸變 Image Distortion', Allen Tzeng Blog, 15 February. Available at: https://allen108108.github.io/blog/2020/02/15/%E5%BD%B1%E5%83%8F%E7%95%B8%E8%AE%8A%20Image%20Distortion/ (Accessed: 29 May 2024).
