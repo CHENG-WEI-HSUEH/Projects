@@ -23,8 +23,8 @@
   <tr>
     <td>03</td>
     <td>Lens Distortion Correction (LDC)</td>
-    <td>15 May 2024</td>
-    <td></td>
+    <td>6 June 2024</td>
+    <td> ✔ </td>
   </tr>
   <tr>
     <td>04</td>
