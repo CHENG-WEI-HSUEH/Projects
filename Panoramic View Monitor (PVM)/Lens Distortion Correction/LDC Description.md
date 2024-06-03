@@ -29,8 +29,9 @@ The tangential distortion model adopts the Polynomial Tangential Distortion Mode
 ### Y(Distored) = Y(Undistored) + {p1 * [r<sup>2</sup> + 2 * Y(Undistored)<sup>2</sup>] + p2 * [2 * Y(Undistored)]}
 
 The combination of the 2 distortion models will be 
-X(Distorted) = X(Undistored) * [1 + p1 * r<sup>2</sup> + p2 + r<sup>4</sup> + p3 * r<sup>6</sup>] + {p1 * [2 * X(Undistorted)] + p2 * [r<sup>2</sup> + 2 * X(Undistorted)<sup>2</sup>]}
-Y(Distorted) = Y(Undistored) * [1 + p1 * r<sup>2</sup> + p2 + r<sup>4</sup> + p3 * r<sup>6</sup>] + {p1 * [r<sup>2</sup> + 2 * Y(Undistorted)<sup>2</sup>] + p2 * [2 * Y(Undistorted)]}
+- X(Distorted) = X(Undistored) * [1 + p1 * r<sup>2</sup> + p2 + r<sup>4</sup> + p3 * r<sup>6</sup>] + {p1 * [2 * X(Undistorted)] + p2 * [r<sup>2</sup> + 2 * X(Undistorted)<sup>2</sup>]}
+
+- Y(Distorted) = Y(Undistored) * [1 + p1 * r<sup>2</sup> + p2 + r<sup>4</sup> + p3 * r<sup>6</sup>] + {p1 * [r<sup>2</sup> + 2 * Y(Undistorted)<sup>2</sup>] + p2 * [2 * Y(Undistorted)]}
 
 ## Results
 
