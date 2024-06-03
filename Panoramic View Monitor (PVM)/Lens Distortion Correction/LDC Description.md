@@ -11,7 +11,9 @@ This step aims to scale the position of pixels between -1~1.
 ## Distortion Parameters
 <img src = "Radial_Distortion_Model.png"> Radial_Distortion_Model <img>
 
-The project utilises the Polynomial Radial Distortion Model, only adopting the even part 
+The project utilizes the Polynomial Radial Distortion Model, only adopting the even part 
+
+### Radial distortion
 
 ### f(r) = 1 + p1 * r<sup>2</sup> + p2 + r<sup>4</sup> + p3 * r<sup>6</sup>. 
 ### r = x<sup>2</sup> + y<sup>2</sup>.
@@ -21,14 +23,14 @@ The project utilises the Polynomial Radial Distortion Model, only adopting the e
 
 Here, x & y are the positions of pixels in a distorted image.
 
-
+### Tangential distortion
 
 In addition to radial distortion, the LDC function also takes "Tangential distortion" into consideration. The tangential distortion model adopts the Polynomial Tangential Distortion Model as follows.
 
 ### X(Distored) = X(Undistored) + {p1 * [2 * X(Undistored)] + p2 * [r<sup>2</sup> + 2 * X(Undistored)<sup>2</sup>]}
 ### Y(Distored) = Y(Undistored) + {p1 * [r<sup>2</sup> + 2 * Y(Undistored)<sup>2</sup>] + p2 * [2 * Y(Undistored)]}
 
-
+### Combination
 The combination of the 2 distortion models will be 
 - X(Distorted) = X(Undistored) * [1 + p1 * r<sup>2</sup> + p2 + r<sup>4</sup> + p3 * r<sup>6</sup>] + {p1 * [2 * X(Undistorted)] + p2 * [r<sup>2</sup> + 2 * X(Undistorted)<sup>2</sup>]}
 
